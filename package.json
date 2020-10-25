@@ -1,0 +1,29 @@
+{
+    "name": "hbcinstaller",
+    "version": "0.0.1",
+    "description": "Installs Letterbombs, Priiloader, OSCWii [Homebrew Browser], ftpii, MMM [Multi Mod Manager] and more! All in the same program. Program Tree [Shows which programs are used] is included in here. Just say pt and the selection prompt. The program tree is also shown at the help screen. Notice: This just installs the hackmii installer and some other programs along with it.",
+    "main": "./boot/boot.js",
+    "scripts": {
+      "test": "node ./boot/boot.js --RunTests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ProjectHSI/HBCInstaller.git"
+    },
+    "keywords": [
+      "The",
+      "Homebrew",
+      "Channel",
+      "Installer",
+      "Hackmii"
+    ],
+    "author": "[Project HSI]",
+    "license": "SEE LICENSE IN License",
+    "bugs": {
+      "url": "https://github.com/ProjectHSI/HBCInstaller/issues"
+    },
+    "homepage": "https://github.com/ProjectHSI/HBCInstaller#readme",
+    "dependencies": {
+      "npmlog": "^4.1.2"
+    }
+}
